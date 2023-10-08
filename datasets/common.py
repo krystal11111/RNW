@@ -3,12 +3,23 @@
 #
 # root dir
 ROBOTCAR_ROOT = {
-    'day': '/opt/data/private/Oxford_RobotCar_Processed/2014-12-09-13-21-02/',
-    'night': '/opt/data/private/Oxford_RobotCar_Processed/2014-12-16-18-44-24/'
+    'day': '../data/nuScenes-Night/RobotCar-Night/2014-12-09-13-21-02',
+    'night': '../data/RobotCar-Night/2014-12-16-18-44-24'
 }
 NUSCENES_ROOT = {
-    'sequence': '/kunw/Dataset/nuScenes/sequences/',
-    'test_color': '/kunw/Dataset/nuScenes/test/color/',
-    'test_gt': '/kunw/Dataset/nuScenes/test/gt/',
-    'split': '/kunw/Dataset/nuScenes/splits/'
+    'sequence': '/data/zs_data/nuScenes/train_output_night/sequences',
+    'test_color': '/data/zs_data/nuScenes-Night/test/color',
+    'test_gt': '/data/zs_data/nuScenes-Night/test/gt',
+    'split': '/home/zs/RNW-master/split_files/nuscenes'
 }
+'''ROBOTCAR_ROOT = {
+    'day': '../data/nuScenes-Night/RobotCar-Night/2014-12-09-13-21-02',
+    'night': '../data/RobotCar-Night/2014-12-16-18-44-24'
+}
+NUSCENES_ROOT = {
+    'sequence': '/data/zs_data/nuScenes/train_output_night/sequences',
+    'test_color': '/data/zs_data/nuScenes-Night/test/color_denoise',
+    'test_gt': '/data/zs_data/nuScenes-Night/test/gt',
+    'split': '/home/zs/STEPS/split_files/nuscenes'
+
+}'''
